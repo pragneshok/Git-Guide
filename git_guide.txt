@@ -18,7 +18,7 @@ git --version
 STEPS FOR PUSH TO GIT
 =========================================================================================
 
-git clone http://git.imobdev.com/web-group/ljbazaar.git /var/www/html/lj_git/
+git clone https://github.com/pragneshok/Git-Guide.git /var/www/html/sample-project/
 git checkout developer
 chmod -R 0777 ./*
 nano .gitignore  //goto .gitignore section
