@@ -1,0 +1,13 @@
+FFMPEG
+-----------------------------------------
+
+Convert video very compress level
+ffmpeg -y -i $src  -c:v libx264 -preset slow -crf 22 -pix_fmt yuv420p -b:a 128k -strict -2  $dest
+
+Convert video normal level
+ffmpeg -y -i $src  -c:v libx264 -preset medium -b:v 555k  -crf 22 -pix_fmt yuv420p -b:a 128k -strict -2  $dest
+
+
+Create thumb from video
+
+ffmpeg -i $uploaded_file -ss 00:00:01.000 -vframes 1 image.png
