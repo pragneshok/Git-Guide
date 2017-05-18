@@ -1,4 +1,4 @@
-1) Give permission to all directories ::  find /var/www -type d -exec sudo chmod 2775 {} \;
+1) Give permission to all directories ::  find /var/www -type d -exec sudo chmod 0775 {} \;
 
 2) Give permission to all files :: find /var/www -type f -exec sudo chmod 0664 {} \;
 
