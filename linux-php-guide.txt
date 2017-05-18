@@ -1,0 +1,9 @@
+1) Give permission to all directories ::  find /var/www -type d -exec sudo chmod 2775 {} \;
+
+2) Give permission to all files :: find /var/www -type f -exec sudo chmod 0664 {} \;
+
+3) Get PHP Installation Path :: which php
+
+4) Get PHP INI Path :: php --ini
+
+5) Install lamp server :: (1) apt-get install tasksel  (2) sudo tasksel
