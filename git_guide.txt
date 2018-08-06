@@ -6,6 +6,18 @@ DONT WANT TO REMOVE THEN: Just add *~ to .gitignore at the root of you repo.
 LINK:: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
 =========================================================================================
+Problem while cloning large project? [ERROR: Premature EOF git]
+=========================================================================================
+
+ANS:
+
+git config --global core.compression 0
+git clone --depth 1 --branch developer http://path/path.git /var/www/html/project_folder
+=========================================================================================
+
+
+
+=========================================================================================
 INSTALLATION
 =========================================================================================
 sudo apt-get install git
