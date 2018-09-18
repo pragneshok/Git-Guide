@@ -1,0 +1,11 @@
+Innodb recovery
+===========================================================
+https://dba.stackexchange.com/questions/202345/wont-start-innodb-corrupted-page-tablespace-was-not-found
+
+
+CHECK MYSQL QUEUED SQL VIA BELOW SQL QUERY
+===========================================================
+SHOW FULL PROCESS LIST
+
+MYSQL OPTIMIZATION TECHNIQUES
+===========================================================
